@@ -10,7 +10,7 @@ Es-Selmy Niama
 Year: 2025
 Course: AI / Machine Learning TP
 
-📌 Overview
+  Overview
 
 This project develops a Convolutional Neural Network (CNN) capable of recognizing 12 chess piece categories, distinguishing both piece type (King, Queen, Rook, Bishop, Knight, Pawn) and piece color (White/Black).
 
@@ -30,7 +30,7 @@ Error analysis (misclassified samples)
 
 Final model evaluation
 
-🗂 Dataset
+  Dataset
 
 The dataset contains 12 classes, structured in three folders:
 
@@ -52,7 +52,7 @@ wp – White Pawn
 
 Images were standardized to 75×75 grayscale.
 
-⚙ Project Pipeline
+  Project Pipeline
 1. Data Setup
 
 Connect Google Drive
@@ -91,7 +91,7 @@ Softmax output (12 classes)
 
 The model reaches ≈ 99.5% accuracy on the test set.
 
-📊 Results & Evaluation
+  Results & Evaluation
 ✔ Training & Validation Curves
 
 The notebook includes plots for:
@@ -124,7 +124,7 @@ A grid of many test images with predicted labels
 
 We automatically extract and plot all misclassified images, helping identify possible weaknesses or ambiguous samples.
 
-📥 Using the Trained Model
+  Using the Trained Model
 
 You can load a single image from the test set and perform:
 
@@ -138,7 +138,7 @@ Visualizing prediction confidence
 
 The notebook includes a reusable function for single-image inference.
 
-💾 Saving & Loading the Model
+  Saving & Loading the Model
 
 The model is saved in .keras format:
 
@@ -153,16 +153,16 @@ model = load_model("chess_cnn_model.keras")
 
 This avoids re-training when re-opening the notebook.
 
-📖 Notebook Contents
+  Notebook Contents
 
 The full project notebook is available here:
-👉 Chess_Piece_Recognition.ipynb
+  Chess_Piece_Recognition.ipynb
 
 You can open it directly in Google Colab:
 
 (Replace USERNAME/REPO accordingly)
 
-🚀 How to Run the Project
+  How to Run the Project
 
 Open the notebook in Google Colab
 
@@ -172,7 +172,7 @@ Run all steps (or load the saved model for faster inference)
 
 Test predictions or upload your own chess piece images
 
-📌 Future Improvements
+  Future Improvements
 
 Possible extensions:
 
@@ -184,7 +184,7 @@ Object detection on full chessboard images
 
 Augment dataset for robustness
 
-📜 License
+  License
 
 This project is for academic use (2025 AI/ML TP).
 All code is free to study or reuse for educational purposes.
